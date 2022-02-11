@@ -1,48 +1,22 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
+    "id": "87f69ce0-8ee1-445a-a34a-7db0f3d4483f",
+    "title": "Class",
+    "text": "class at 7p.m."
   },
   {
-    "title": "Test#1",
-    "text": "Testing"
+    "id": "9a76e972-229e-4354-a441-5ffcfb9522f1",
+    "title": "Work",
+    "text": "drive to work on Monday"
   },
   {
-    "title": "ksdjas",
-    "text": "kajsdaksjd"
+    "id": "d83721f4-59d7-481c-9ae4-e474b79a2e14",
+    "title": "Meeting ",
+    "text": "Meeting at 1:00 p.m."
   },
   {
-    "title": "Test2",
-    "text": "Testing #2"
-  },
-  {
-    "title": "jhjh",
-    "text": "jhkjhkj"
-  },
-  {
-    "title": "Costco",
-    "text": "Bread\nEgg\nMilk"
-  },
-  {
-    "title": "Delete",
-    "text": "Delete Test"
-  },
-  {
-    "name": "Tina",
-    "species": "mammals",
-    "diet": "omnivore",
-    "personalityTraits": [
-      "hungry"
-    ],
-    "id": "12"
-  },
-  {
-    "name": "Tina",
-    "species": "mammals",
-    "diet": "omnivore",
-    "personalityTraits": [
-      "hungry"
-    ],
-    "id": "12"
+    "id": "58bff8b9-b3a8-4e7d-aa8c-a48fa469da48",
+    "title": "Delete Test",
+    "text": "Testing if I can delete this"
   }
 ]
