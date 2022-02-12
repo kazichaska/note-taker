@@ -5,18 +5,23 @@
     "text": "class at 7p.m."
   },
   {
-    "id": "9a76e972-229e-4354-a441-5ffcfb9522f1",
-    "title": "Work",
-    "text": "drive to work on Monday"
+    "id": "00b9d819-87c9-4e2e-9a28-3e38330ddbb8",
+    "title": "Dinner",
+    "text": "Dinner at ChanView"
   },
   {
-    "id": "d83721f4-59d7-481c-9ae4-e474b79a2e14",
-    "title": "Meeting ",
-    "text": "Meeting at 1:00 p.m."
+    "id": "6e493e86-6539-4010-a946-11f3e8732c88",
+    "title": "orca",
+    "text": "patches"
   },
   {
-    "id": "58bff8b9-b3a8-4e7d-aa8c-a48fa469da48",
-    "title": "Delete Test",
-    "text": "Testing if I can delete this"
+    "id": "7c4a43a8-deb1-444c-bf2c-6436f2d77e25",
+    "title": "Trying JSON object",
+    "text": "Baazar\n\nMilk\nEgg\nWater\nBurger"
+  },
+  {
+    "id": "85a3c768-589d-46a2-b300-18ee6d6a49ed",
+    "title": "Testing Note",
+    "text": "Another note"
   }
 ]
