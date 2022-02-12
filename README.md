@@ -1,15 +1,12 @@
-# 11 Express.js: Note Taker
+# Note Taker
 
-## Your Task
-
-Your challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+### Description:
+```
+create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
-
-Before you start, clone [the starter code](https://github.com/coding-boot-camp/miniature-eureka).
-
+```
 ## User Story
-
 ```
 AS A small business owner
 I WANT to be able to write and save notes
@@ -17,7 +14,6 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 ## Acceptance Criteria
-
 ```
 GIVEN a note-taking application
 WHEN I open the Note Taker
@@ -32,45 +28,58 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
 ```
 
-## Mock-Up
+  ![License](https://img.shields.io/badge/License-MIT%20-yellow.svg)
 
-The following images show the web application's appearance and functionality: 
+  ## Table of contents
+  1. [Title](#title)
+  2. [Description](#description)
+  3. [Installation](#installation)
+  4. [Usage](#usage)
+  5. [Contributing](#contributing)
+  6. [Test](#test)
+  7. [License](#license)
+  8. [Questions](#questions)
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+  ## Title
+  Note Taker
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
+  ## Description
+  This application will you write and save notes
 
-## Getting Started
+  ## Installation
+  run `npm install express` 
 
-The application should have a `db.json` file on the back end, which will be used to store and retrieve notes using the `fs` module.
+  ## Usage
+  run `npm start` to start server and hit `http://localhost:3001` (locally) to go to main page
 
-The following HTML routes should be created:
+  ## Contributing
+  start with a branch and request PR for merge
 
-* `GET /notes` should return the `notes.html` file.
+  ## Test
+  always test on local environment
 
-* `GET *` should return the `index.html` file.
+  ## License
+  [MIT](https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633#mit-license)
 
-The following API routes should be created:
+  ## Questions
+  no question at this time<br />
+  Find me on Github [kazichaska](https://github.com/kazichaska)<br />
+  Email me with any question: kazichaska@gmail.com <br />
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+## Deployed Application Video Link 
+Application is also deployed in Heroku:
+https://mysterious-sea-32906.herokuapp.com/notes 
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into `npm` packages that could do this for you).
+## Screenshots of the code
+![indexhtml](./assets/indexhtml.png)
 
-## Bonus
+![index](./assets/indexjs.png)
 
-You haven’t learned how to handle DELETE requests, but this application has that functionality in the front end. As a bonus, see if you can add the DELETE route to the application using the following guideline:
+![script](./assets/serverjs.png)
 
-* `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+![application](./assets/application.png)
 
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![application1](./assets/application_1.png)
