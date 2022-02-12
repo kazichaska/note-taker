@@ -74,12 +74,12 @@ Application is also deployed in Heroku:
 https://mysterious-sea-32906.herokuapp.com/notes 
 
 ## Screenshots of the code
-![indexhtml](./assets/indexhtml.png)
+![indexhtml](./assets/images/indexhtml.png)
 
-![index](./assets/indexjs.png)
+![index](./assets/images/indexjs.png)
 
-![script](./assets/serverjs.png)
+![script](./assets/images/serverjs.png)
 
-![application](./assets/application.png)
+![application](./assets/images/application.png)
 
-![application1](./assets/application_1.png)
+![application1](./assets/images/application_1.png)
